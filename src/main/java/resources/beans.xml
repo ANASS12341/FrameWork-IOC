@@ -1,0 +1,6 @@
+<beans>
+    <bean id="serviceA" className="test.ServiceA">
+        <property name="serviceB" ref="serviceB"/>
+    </bean>
+    <bean id="serviceB" className="test.ServiceB"/>
+</beans>
